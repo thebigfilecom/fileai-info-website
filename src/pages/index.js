@@ -28,7 +28,7 @@ export default function Home() {
 
   return (
     <Layout
-      title="Home | cardano.org"
+      title="Home | FileAI.info"
       description="An open platform designed to empower billions without economic identity by offering decentralized applications for managing identity, value, and governance."
     >
       <HomepageHeader />

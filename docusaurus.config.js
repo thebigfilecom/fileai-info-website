@@ -16,15 +16,15 @@ const config = {
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://cardano.org',
+  url: 'https://fileai.info',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/', 
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'cardano-foundation',  
-  projectName: 'www-cardano-org', 
+  organizationName: 'file-ai',  
+  projectName: 'www-fileai-info', 
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -76,8 +76,8 @@ const config = {
       image: 'img/og/default.jpg',
       navbar: {
         logo: {
-          alt: "Cardano Logo",
-          src: "img/cardano-logo-blue.svg",
+          alt: "Fileai Logo",
+          src: "img/fileai-logo-blue.svg",
           srcDark: "img/cardano-logo-white.svg",
         },
         items: [
@@ -94,7 +94,7 @@ const config = {
               {to: '/governance', label: 'Participate in governance'}, 
               {to: '/ouroboros', label: 'What is Ouroboros?'}, 
               {to: '/genesis', label: 'About Genesis Distribution'}, 
-              {href: 'https://beta.explorer.cardano.org', label: 'Explore the blockchain'},
+              
             ],
           },
           {
@@ -106,8 +106,8 @@ const config = {
               {to: '/ambassadors', label: 'Cardano Ambassadors'},
               {to: '/newsletter', label: 'Newsletter'}, 
               {to: '/#follow', label: 'Follow Cardano'},
-              {href: 'https://forum.cardano.org', label: 'Cardano Forum'}, 
-              {href: 'https://forum.cardano.org/t/cardano-stay-safe-series-official-community-channel-list/20046', label: 'Social Channels'}, 
+              {href: 'https://forum.fileai.info', label: 'Cardano Forum'}, 
+              {href: 'fileai.info', label: 'Social Channels'}, 
               
             ],
           },
@@ -118,12 +118,12 @@ const config = {
             items: [  
               {to: '/research', label: 'Cardano Research'},
               {to: '/exchanges', label: 'Integrate Cardano'},
-              {href: 'https://developers.cardano.org', label: 'Developer Portal'},  
-              {href: 'https://developers.cardano.org/tools', label: 'Builder Tools'},  
-              {href: 'https://developers.cardano.org/showcase', label: 'Project Showcase'},  
-              {href: 'https://docs.cardano.org', label: 'Cardano Docs'}, 
-              {href: 'https://cardanoupdates.com', label: 'Developer Updates'},
-              {href: 'https://cardano.stackexchange.com/', label: 'Stack Exchange'},   
+              {href: 'https://developer.fileai.info', label: 'Developer Portal'},  
+              {href: 'https://developer.fileai.info/tools', label: 'Builder Tools'},  
+              {href: 'https://developer.fileai.info/showcase', label: 'Project Showcase'},  
+              {href: 'https://docs.fileai.info', label: 'Cardano Docs'}, 
+              {href: 'https://fileai.info', label: 'Developer Updates'},
+              {href: 'https://fileai.info', label: 'Stack Exchange'},   
             ],
           },
           {
@@ -149,11 +149,6 @@ const config = {
           },
           */
           {to: '/news', label: 'News', position: 'left'},
-          {
-            href: `${vars.repository}`,
-            position: "right",
-            className: "header-github-link",
-          },
         ],
       },
       footer: {
