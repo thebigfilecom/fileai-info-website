@@ -11,7 +11,7 @@ function HomepageHeader() {
   const { siteTitle } = "useDocusaurusContext()";
   return (
     <SiteHero
-      title="Discover Cardano"
+      title="Discover FileAI"
       description="Cardano is the nexus of five principles: People, purpose, technology, research, 
         and opportunity. Explore and learn this new constellation of knowledge."
       bannerType="starburst"

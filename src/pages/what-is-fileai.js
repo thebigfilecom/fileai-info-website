@@ -10,7 +10,7 @@ function HomepageHeader() {
   const { siteTitle } = "useDocusaurusContext()";
   return (
     <SiteHero
-      title="What is ada?"
+      title="What is FileAI?"
       description={[
         "A new type of currency. A new means of transaction.",
         <br key="line1" />, /* FIXME: too hacky */
@@ -25,15 +25,15 @@ export default function Home() {
 
   return (
     <Layout
-    title="What is ada? | cardano.org"
+    title="What is FileAI? | Fileai.info"
     description="A new type of currency. A new means of transaction. Direct. Secure. From Anywhere. For Everyone."
     >
-      <OpenGraphImage pageName="what-is-ada" />
+      <OpenGraphImage pageName="what-is-fileai" />
       <HomepageHeader />
       <main>
         <BoundaryBox>
           <WhatIsAda
-            headline="What is ada?"
+            headline="What is FileAI?"
             title="Ada Is The Native Token Of Cardano"
             description={[
               "It is named after Ada Lovelace: a 19th-century mathematician who is recognized as the first \

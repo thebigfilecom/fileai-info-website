@@ -11,9 +11,9 @@ const vars = require('./variables')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Cardano',
+  title: 'FileAI',
   tagline: 'Making The World Work Better For All',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon.png',
 
   // Set the production url of your site here
   url: 'https://fileai.info',
@@ -86,8 +86,8 @@ const config = {
             label: 'Learn',
             position: 'left',
             items: [  
-              {to: '/discover-cardano', label: 'Discover Cardano'}, 
-              {to: '/what-is-ada', label: 'What is ada?'}, 
+              {to: '/discover-fileai', label: 'Discover FileAI'}, 
+              {to: '/what-is-fileai', label: 'What is FileAI?'}, 
               {to: '/what-is-ada#wallets', label: 'Find Cardano wallets'}, 
               {to: '/stake-pool-delegation', label: 'Delegate your stake'}, 
               {to: '/stake-pool-operation', label: 'Operate a stake pool'}, 

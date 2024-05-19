@@ -76,7 +76,7 @@ export default function Home() {
         <BoundaryBox>
           <Divider text="Make the Change" />
           <TitleWithText
-            title="Discover Cardano"
+            title="Discover FileAI"
             description={[
               "Cardano is the first blockchain platform to be built through [peer-reviewed research](/research), \
             to be secure enough to protect the data of billions, scalable enough to accommodate global systems, \

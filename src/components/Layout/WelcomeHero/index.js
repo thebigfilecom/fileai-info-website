@@ -15,9 +15,9 @@ function WelcomeHero({ title, description }) {
         <div className={styles.cta}>
           <Link
             className={clsx("button button--primary button--lg", styles.button)}
-            to="/discover-cardano"
+            to="/discover-fileai"
           >
-            Discover Cardano
+            Discover FileAI
           </Link>
           <Link
             className={clsx("button button--primary button--lg", styles.button)}
